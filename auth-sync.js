@@ -6,7 +6,7 @@ const FIREBASE_CONFIG = {
   appId: "BU_YERGA"
 };
 const OWNER_EMAILS = ["sizning.emailingiz@gmail.com"]; // faqat shu akkauntlar kira oladi (iCloud emailingizni ham qo'shing)
-const OWNER_PHONES = ["+998901234567"]; // telefon bilan kirishga ruxsat berilgan raqam(lar), +998 bilan
+const OWNER_PHONES = ["+99920820571" "+998913219898" "+998973809848" ]; // telefon bilan kirishga ruxsat berilgan raqam(lar), +998 bilan
 const ENABLE_PHONE = true;     // telefon raqam + SMS kod bilan kirish
 const PHONE_ONLY = true;                      // true: faqat telefon raqam oynasi (Firebase kerak emas). false: Google/Apple/SMS + bulutga saqlash
 const OWNER_PHONES_SIMPLE = ["+998920820571"];  // PHONE_ONLY=true: kira oladigan raqamlar (har bir odam uchun bittadan qo'shing, O'ZINGIZNIKINI YOZING)
