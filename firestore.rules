@@ -1,0 +1,12 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /app/owner {
+      allow read, write: if request.auth != null && (
+        (request.auth.token.email_verified == true
+          && request.auth.token.email in ['sizning.emailingiz@gmail.com'])
+        || request.auth.token.phone_number in ['+998901234567']
+      );
+    }
+  }
+}
